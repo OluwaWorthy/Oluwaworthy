@@ -17,3 +17,7 @@ Fix the whole thing
 
 https://oluwaworthy.github.io/Profile-and-Social/public/
 make private or fix
+
+https://oluwaworthy.github.io/myPortfolio/
+
+https://oluwaworthy.github.io/Tribute-Page/
