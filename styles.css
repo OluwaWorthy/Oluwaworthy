@@ -6,6 +6,7 @@ html, body {
 
 body{
 background-color: white;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .nav.navbar.navbar-expand-lg.bg-light .container{
@@ -20,8 +21,6 @@ li{
     padding: 5%;
     padding-left: 5%;
     border-radius: 2%;
-    height: 50%;
-    width: 20%;
     border: 5%;
     padding-top: 0%;
     align-items: center;
@@ -69,16 +68,30 @@ li{
     }
 
     .introword {
-      font-size: 390%;
-      font-weight: 900;
+      font-size: 350%;
+      font-weight: 1000;
       color: blue;
       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       line-height: 45pt;
       text-align: left;
     }
 
+    .introbottom {
+      font-size: 200%;
+      font-weight: 600;
+      color: blue;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      line-height: 30pt;
+      text-align: left;
+    }
+
     .introword div {
       padding: 0%;
+    }
+
+    div div.me-3.pe-3{
+        margin-right: 9%;
+        margin-left: 73%;
     }
 
     .introimg {
@@ -150,7 +163,7 @@ li{
       color: white;
     }
     
-   a button {
+   .contactButton {
        background-color: #4CAF50; /* Green */
       border: 1px solid white;
       color: white;
@@ -165,6 +178,32 @@ li{
       bottom: 60px;
       font-family: cursive;
       animation: mybutton 3s infinite;
+    }
+
+    /*#myBtn{
+      background-color: #4CAF50; /* Green 
+      border: 1px solid white;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 8px;
+      transition-duration: 0.4s;
+      position: fixed;
+      bottom: 60px;
+      font-family: cursive;
+      animation: mybutton 3s infinite;
+    }*/
+
+    .rounded.twtImages{
+      height: 140px;
+      width: 300px;
+      justify-content: center;
+      position: absolute;
+      float: right;
+      clear: both;
     }
     
     .button:hover {
@@ -231,8 +270,66 @@ li{
     }
 
     .container .list .webpages img{
-      height: 50%;
-      width: 50%;
+      height: 75%;
+      width: 75%;
     }
 
+    .webpages{
+      text-align: center;
+      justify-content: center;
+      padding-left: 0rem;
+    }
+
+    .cardodd.text-center,.cardeven.text-center{
+      padding-left: 1.5% ;
+      padding-right: 1.5%;
+      padding-top: 1.5% ;
+      padding-bottom: 1.5%;
+      justify-content: center;
+    }
+
+    .liInnerdiv.text-center{
+      border-radius: 1vw;
+      border-bottom: rgb(187, 179, 179);
+      border-left: rgb(239, 221, 221);
+      border-left: rgb(239, 221, 221);
+      border-style: outset;
+      width: 87%;
+      margin: auto;
+      padding: 1%;
+    }
+
+    .liInnerdiv2.text-center{
+      border-radius: 1vw;
+      border-bottom: rgb(187, 179, 179);
+      border-left: rgb(239, 221, 221);
+      border-left: rgb(239, 221, 221);
+      border-style: outset;
+      padding: 1%;
+    }
+
+    .row.row-content.cardServ{
+      padding-top: 2.5% ;
+      padding-bottom: 2.5%;
+      display: flex;
+      align-content: center;
+      align-items: center;
+    }
+
+    .row.row-content.cardServStudy{
+      padding-top: 1.5% ;
+      padding-bottom: 1.5%;
+      margin-top: 1.5%;
+      margin-bottom: 1.5%;
+      display: flex;
+      align-content: center;
+      align-items: center;
+      border-radius: 1vw;
+      border-bottom: rgb(187, 179, 179);
+      border-left: rgb(239, 221, 221);
+      border-left: rgb(239, 221, 221);
+      border-style: outset;
+      width: 75%;
+      justify-content: center;
+    }
     
