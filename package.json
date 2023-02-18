@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OluwaWorthy/myPortfolio.git"
+    "url": "git+https://github.com/OluwaWorthy.git"
   },
   "author": "oluwaworthy",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/OluwaWorthy/myPortfolio/issues"
   },
-  "homepage": "https://github.com/OluwaWorthy/myPortfolio#index",
+  "homepage": "https://github.com/OluwaWorthy#index",
   "devDependencies": {
     "lite-server": "^2.6.1"
   },
