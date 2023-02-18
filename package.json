@@ -1,7 +1,7 @@
 {
   "name": "myportfolio",
   "version": "1.0.0",
-  "description": "This is a website foe oluwatoyin_akinselure",
+  "description": "This is a website for oluwatoyin_akinselure",
   "main": "index.html",
   "scripts": {
     "start": "npm run lite",
@@ -17,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/OluwaWorthy/myPortfolio/issues"
   },
-  "homepage": "https://github.com/OluwaWorthy/myPortfolio#readme"
+  "homepage": "https://github.com/OluwaWorthy/myPortfolio#index",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "popper": "^1.0.1"
+  }
 }

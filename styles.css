@@ -68,8 +68,8 @@ li{
     }
 
     .introword {
-      font-size: 320%;
-      font-weight: 900;
+      font-size: 300%;
+      font-weight: 800;
       color: blue;
       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       line-height: 40pt;
@@ -165,7 +165,7 @@ li{
             position: fixed;
             left: 0;
             bottom: 0;
-            width: 100%;
+            width: 100vw;
             text-align: center;
             padding: 10px 10px 0px 10px;
             height: 40px;
