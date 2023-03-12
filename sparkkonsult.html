@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-social/bootstrap-social.css">
     <link href="styles.css" rel="stylesheet" type="text/css" />
 
     <title>Spark Konsult</title>
@@ -24,9 +24,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="projects.html">Projects</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Resume.html">Resume|CV</a>
-                </li>
             </ul>
         </div>
         </div>
@@ -35,24 +32,18 @@
         <div class="row row-content" id="bio">
             <div class="col-12 col-sm-7 mr-1">
                 <div class="introword col-6">
-                    Hi, I am
+                    Hi, This is
                     <img src="images/hand.png" class="introimg" alt="hand icon">
-                    Oluwatoyin Akinselure
+                    Spark Konsult
                 </div>
                 <div class="col-12 homeText">
-                    <p>I enjoy building websites and bringing dream webpages to life.
-                        Also a creative writer who copywrites and doesn't mind proofreading documents at all.
-                        An individual with vast experiences excited to 
-                            contribute value by employing my unique 
-                            set of soft skills towards creating solutions, 
-                            so as to offer relevant, significant, and intellectual resource 
-                            that drives the continuous attainment of 
-                             set goals and objectives.
+                    <p>  I am a digital and web creator. I enjoy building websites and bringing dream webpages to life.
+                        I copywrite, build CVs, Motivation letters, Statement of Purpose writer and enjoy proofreading documents efficiently.
                     </p>
                 </div>    
             </div>
             <div class="col-12 col-sm-5 ml-1">
-                <img class="profileImage" src="images/profileImg.png" alt="profileImage">
+                <img class="profileImage" src="images/profile.png" alt="profileImage">
             </div>
         </div><br><br>
         <div class="row row-content">
@@ -60,7 +51,7 @@
                 Check out my Services
             </div>
         </div>
-        <div class="row row-content cardServ">
+        <div class="row row-content cardServ" id="webBuilding">
             <img class="col-md-5 mx-3 mr-1" src="images/Website Sample Landing Page.jpeg" alt="sampleWebPage">
             <div class="col-md-4 my-3 ml-1 text-center">
                 <h6 class="text-center">
@@ -70,23 +61,20 @@
                     Who said you had to break the bank to own a website
                     Build your website with me in a budget friendly fashion
                 </p>
-                <div class="dropdown">
-                    <button class="btn btn-info dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Order</button>
+                <button class="btn btn-info dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-target="#webServices" aria-labelledby="webServices" aria-expanded="false">Order</button>
+                <div class="dropdown" id="webServices">
                     <ul class="dropdown-menu">
                         <li>
-                            <a href="https://sandbox-flw-web-v3.herokuapp.com/pay/buildsinglewebpage" class="dropdown-item">Single Webpage</a>
+                            <a  class="dropdown-item" href="https://flutterwave.com/pay/buysinglepagewebsite">Single Webpage</a>
                         </li>
                         <li>
-                            <a href="https://sandbox-flw-web-v3.herokuapp.com/pay/build2-pagewebsite" class="dropdown-item">2Pages Website</a>
+                            <a  class="dropdown-item" href="https://flutterwave.com/pay/buy2pageswebsite">2Pages Website</a>
                         </li>
                         <li>
-                            <a href="https://sandbox-flw-web-v3.herokuapp.com/pay/build3-pagewebsite" class="dropdown-item">3Pages Website</a>
+                            <a  class="dropdown-item" href="https://flutterwave.com/pay/buy3-pagewebsite">3Pages Website</a>
                         </li>
                         <li>
-                            <a href="https://sandbox-flw-web-v3.herokuapp.com/pay/build4or5pagewebsite" class="dropdown-item">4-5 Pages Website</a>
-                        </li>
-                        <li>
-                            <a href="https://sandbox-flw-web-v3.herokuapp.com/pay/largewebsite" class="dropdown-item">6 or More Pages Website</a>
+                            <a  class="dropdown-item" href="https://flutterwave.com/pay/largewebsiteconsultation">Large Website</a>
                         </li>
                     </ul>
                 </div>
@@ -98,78 +86,72 @@
         <br>
         <br>
         <br>
-        <div class="row row-content cardServStudy text-center">
+        <div class="row row-content cardServStudy text-center" id="studyConsultation">
             <div class="col-sm-9 ml-1">
                 <div class="d-flex">
                     <i class="fa fa-diamond me-3"></i>
                     <h6 class="me-2">
                         Study Application Consulting
                     </h6>
-                    <a href="https://sandbox-flw-web-v3.herokuapp.com/pay/studyconsultingsession"><button class="btn btn-sm me-2 btn-info text-center" type="submit">Book 30Min Session</button></a>
-                    <a href="https://sandbox-flw-web-v3.herokuapp.com/pay/45minutessession"><button class="btn btn-sm btn-info text-center" type="submit">Book 45 min Session</button></a>
+                    <a href="https://calendly.com/sparkkonsult/1hour_consultation_session"><button class="btn btn-sm me-2 btn-info text-center" type="submit">Book 30Min Session</button></a>
+                    <a href="https://calendly.com/sparkkonsult/45-minutes-meeting"><button class="btn btn-sm btn-info text-center" type="submit">Book 45 min Session</button></a>
+                    <a href="https://calendly.com/sparkkonsult/30min"><button class="btn btn-sm btn-info text-center" type="submit">Book 1Hour Session</button></a>
                 </div>
             </div>
         </div>
-        <div class="row row-content cardServStudy text-center">
+        <div class="row row-content cardServStudy text-center" id="createProofEdit">
             <div class="col-sm-9 ml-1">
                 <div class="d-flex">
                     <i class="fa fa-diamond me-2"></i>
                     <h6 class="me-2">
-                        Consulting for 
-                            CV,
-                            Statement of Purpose, Motivation letters
+                        Proofread and Edit 
+                            CV, Create, 
+                            Statement of Purpose or Motivation letters
                     </h6>
                     <div class="dropdown">
-                        <button class="btn btn-info dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Book Session</button>
-                        <ul class="dropdown-menu">
+                        <a class="btn btn-info dropdown-toggle" type="button" id="sopDropdown" data-bs-toggle="dropdown" aria-expanded="false">Create/Proof/Edit</a>
+                        <ul class="dropdown-menu" aria-labelledby="sopDropdown">
                             <li>
-                                <a href="https://sandbox-flw-web-v3.herokuapp.com/pay/30minuteswritingsession" class="dropdown-item">30Mins Session</a>
+                                <a href="https://sandbox-flw-web-v3.herokuapp.com/pay/30minuteswritingsession" class="dropdown-item">CV Edit</a>
                             </li>
                             <li>
-                                <a href="https://sandbox-flw-web-v3.herokuapp.com/pay/45minuteswritingsession" class="dropdown-item">45Mins Session</a>
+                                <a href="https://sandbox-flw-web-v3.herokuapp.com/pay/45minuteswritingsession" class="dropdown-item">Create or Edit Statement of Purpose</a>
                             </li>
                             <li>
-                                <a href="https://sandbox-flw-web-v3.herokuapp.com/pay/1hourwritingsession" class="dropdown-item">1 Hour Session</a>
+                                <a href="https://sandbox-flw-web-v3.herokuapp.com/pay/1hourwritingsession" class="dropdown-item">Create or Edit Motivation Letter</a>
                             </li>
                         </ul>
+                        <button class="btn btn-sm btn-info text-center" type="submit">Book</button>
                     </div>
-                    <!--a class="col-sm-3" href="https://sandbox-flw-web-v3.herokuapp.com/pay/30minuteswritingsession"><button class="btn btn-sm me-2 btn-info text-center" type="submit">Book 30Mins Session</button></a>
-                    <a class="col-sm-3" href="https://sandbox-flw-web-v3.herokuapp.com/pay/45minuteswritingsession"><button class="btn btn-sm me-2 btn-info text-center" type="submit">Book 45Mins Session</button></a>
-                    <a class="col-sm-3" href="https://sandbox-flw-web-v3.herokuapp.com/pay/1hourwritingsession"><button class="btn btn-sm btn-info text-center" type="submit">Book 1 Hour Session</button></a-->
                 </div>
             </div>
         </div>
-        <div class="row row-content cardServStudy">
+        <div class="row row-content cardServStudy" id="cVServices">
             <div class="col-sm-9 ml-1">
                 <div class="d-flex text-center">
                     <i class="fa fa-diamond me-3"></i>
                     <h6 class="me-2">
-                       Download my unique editable CV template 
+                       Order A CV Built for You
                     </h6>
-                    <a href="https://sandbox-flw-web-v3.herokuapp.com/pay/ordercvtemplate"><button class="btn btn-info text-center" type="submit">Order Template</button></a>
+                    <div class="dropdown">
+                        <a class="btn btn-info dropdown-toggle" type="button" href="#" data-bs-toggle="dropdown" aria-expanded="false">Select CV</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="https://flutterwave.com/pay/singlepagecv" class="dropdown-item">Basic CV</a>
+                            </li>
+                            <li>
+                                <a href="https://flutterwave.com/pay/2pagecvtemplate" class="dropdown-item">Standard 2Page CV</a>
+                            </li>
+                            <li>
+                                <a href="https://flutterwave.com/pay/2pagecvpro" class="dropdown-item">Advanced 2Page CV</a>
+                            </li>
+                        </ul>
+                        <button class="btn btn-sm btn-info text-center" type="submit">Order CV</button>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row row-content cardServ">
-            <div class="col-md-4 mr-1 text-center">
-                <div col-xs-6 col-md-12 my-3>
-                    <h6 class="text-center">
-                        Life Conversations
-                    </h6>
-                    <p>
-                        Relatable conversations and monologues from faith to Relationships to studies to mindsets...
-                        Everything young adult living
-                    </p>
-                </div>
-                <div class="my-3">
-                    <a href="contact.html"><button class="btn btn-info text-center" type="submit">Join the Conversation</button></a>
-                <br><br>
-                <a href="contact.html"><button class="btn btn-success text-center" type="submit">Sponsor Conversation</button></a>
-                </div>
-            </div>
-            <img class="col-md-5 ml-1" src="images/twtVidThumb.png" alt="twtVidThumb">
-        </div>
-        
+        <br>
         </div>
         <div class="row" >
             <a href="Contact.html"> <button class="contactButton" style="display: block;text-align: center;position: fixed;bottom: 45%; right: 1%;" type="button">CONTACT ME</button> </a>
@@ -250,8 +232,9 @@
             </div>
             </div><br><br>
         </footer>
-<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="script.js" type="text/javascript"></script>
 </body>
 </html>
