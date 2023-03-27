@@ -45,6 +45,43 @@ nav li{
     height: 50%;
     font-size: larger;
 }
+
+.dropbtn{
+cursor: pointer;
+}
+
+.dropdown{
+  position:relative;
+  display:inline-block;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color:rgba(81, 91, 142, 0.813);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a{
+  color: azure;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color:aqua;
+}
+
+.dropdown:hover .dropdown-content{
+  display:block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #4CAF50;
+}
   
   .navbar-nav {
       list-style-type: none;
