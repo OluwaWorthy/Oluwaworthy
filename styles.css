@@ -31,7 +31,7 @@ nav li{
     padding-top: 0%;
     align-items: center;
     justify-content: center;
-    width: 400x;
+    width: 400px;
     height: 270px;
     object-fit: cover;
     float: left;
@@ -291,15 +291,21 @@ cursor: pointer;
     }
 
     input {
-      width: 25%;
+      width: 50%;
       margin: 8px 0;
       box-sizing: border-box;
     }
     
     input[type=text] {
       width: 50%;
-      height: 1%;
       padding: 1% 2%;
+      margin: 2% 0;
+    }
+
+    textarea {
+      width: 75%;
+      height: 8%;
+      padding: 1% 1%;
       margin: 2% 0;
     }
     

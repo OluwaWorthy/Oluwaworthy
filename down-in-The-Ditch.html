@@ -195,9 +195,12 @@
 </div>
 <div class="row">
     <h4>Comments</h4>
-    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+    <form method="post" action="<?php echo htmlspecialchars($_SERVER[ "PHP_SELF" ]) ;?>">
        Comment: <textarea name="comment" rows="5" cols="40"><bold><?php echo $comment;?></bold></textarea><br><br>
-       Name: <input type="text" name="" value="<?php echo $name;?>">
+       Name: <input type="text" name="name" value="<?php echo $name;?>"> 
+       <span class="error">* <?php echo $nameErr;?></span>
+       <br><br>
+       <input type="submit" name="submit" value="Submit">
     </form>
 </div>
 </div>
