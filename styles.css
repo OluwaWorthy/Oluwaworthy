@@ -477,6 +477,25 @@ cursor: pointer;
       width: 100%;
       margin-top: 0%;
     }
+
+    .mediaOverlay{
+      width: 85%;
+      margin: auto;
+      vertical-align: middle;
+      background-color: rgba(0, 0, 0.5, 0.9);
+      margin-top: 5%;
+      margin-bottom: 5%;
+      cursor: pointer;
+      overflow: hidden;
+    }
+    .blogPoster{
+      padding-top: 2%;
+      padding-bottom: 2%;
+      border-radius: 7%;
+      opacity: 0.4;
+      height: 40%; 
+      width: 95%;
+    }
 }
 
 @media (min-width:768px) and (max-width:996px){
@@ -484,5 +503,24 @@ cursor: pointer;
       height: 3.5%;
       width: 100%;
       margin-top: 0%;
+    }
+
+    .mediaOverlay{
+      width: 65%;
+      margin: auto;
+      vertical-align: middle;
+      background-color: rgba(0, 0, 0.5, 0.9);
+      margin-top: 5%;
+      margin-bottom: 5%;
+      cursor: pointer;
+      overflow: hidden;
+    }
+    .blogPoster{
+      padding-top: 2%;
+      padding-bottom: 2%;
+      border-radius: 7%;
+      opacity: 0.4;
+      height: 55%; 
+      width: 95%;
     }
 }
