@@ -435,6 +435,8 @@ cursor: pointer;
       padding-bottom: 2%;
       border-radius: 7%;
       opacity: 0.4;
+      height: 55%; 
+      width: 95%;
     }
     
     .cardBlogBody{
