@@ -145,7 +145,7 @@ cursor: pointer;
     }
 
     .blogimg{
-      height: 5%;
+      height: 7%;
       width: 100%;
       margin-top: 0%;
     }
@@ -153,6 +153,7 @@ cursor: pointer;
     .bloghead{
       color: blue;
       font-weight: 700;
+      text-align: center;
     }
 
     .blogbody{
@@ -417,10 +418,70 @@ cursor: pointer;
       width: 75%;
       justify-content: center;
     }
+
+    .mediaOverlay{
+      width: 50%;
+      margin: auto;
+      vertical-align: middle;
+      background-color: rgba(0, 0, 0.5, 0.9);
+      margin-top: 5%;
+      margin-bottom: 5%;
+      cursor: pointer;
+      overflow: hidden;
+    }
+
+    .blogPoster{
+      padding-top: 2%;
+      padding-bottom: 2%;
+      border-radius: 7%;
+      opacity: 0.4;
+    }
     
+    .cardBlogBody{
+      color: rgb(41, 209, 153);
+      padding: 1%;
+      vertical-align: middle;
+      opacity: 0.4;
+    }
+
+   /* .mediaOverlay{
+      position: fixed;
+      display: block;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 2;
+    }
+    */
+    .overlayText{
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      font-size: 3em;
+      color: rgb(148, 148, 148);
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      overflow: hidden;
+    }
+
+    .overlayText:hover .mediaOverlay{
+      visibility: hidden;
+      opacity: 1;
+    }
+
 @media (max-width:426px){
   .blogimg{
-      height: 50%;
+      height: 49.5%;
+      width: 100%;
+      margin-top: 0%;
+    }
+}
+
+@media (min-width:768px) and (max-width:996px){
+  .blogimg{
+      height: 3.5%;
       width: 100%;
       margin-top: 0%;
     }
