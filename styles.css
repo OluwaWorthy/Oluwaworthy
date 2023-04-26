@@ -443,7 +443,7 @@ cursor: pointer;
       color: rgb(41, 209, 153);
       padding: 1%;
       vertical-align: middle;
-      opacity: 0.4;
+      opacity: 0.15;
     }
 
    /* .mediaOverlay{
@@ -459,7 +459,7 @@ cursor: pointer;
     */
     .overlayText{
       position: absolute;
-      top: 45%;
+      top: 70%;
       left: 50%;
       font-size: 3em;
       color: rgb(148, 148, 148);
