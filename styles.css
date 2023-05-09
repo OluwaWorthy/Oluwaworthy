@@ -434,7 +434,7 @@ cursor: pointer;
       padding-top: 2%;
       padding-bottom: 2%;
       border-radius: 7%;
-      opacity: 0.4;
+      opacity: 0.9;
       height: 55%; 
       width: 95%;
     }
@@ -443,7 +443,7 @@ cursor: pointer;
       color: rgb(41, 209, 153);
       padding: 1%;
       vertical-align: middle;
-      opacity: 0.15;
+      opacity: 0.2;
     }
 
    /* .mediaOverlay{
