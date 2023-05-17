@@ -116,7 +116,7 @@ cursor: pointer;
       color: blue;
       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       line-height: 40pt;
-      text-align: left;
+      text-align: center;
     }
 
     .introbottom {
@@ -244,17 +244,22 @@ cursor: pointer;
        background-color: #4CAF50; /* Green */
       border: 1px solid white;
       color: white;
-      padding: 15px 32px;
+      padding: 10px 20px;
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      font-size: 16px;
-      border-radius: 8px;
+      font-size: 10px;
+      border-radius: 6px;
       transition-duration: 0.4s;
       position: fixed;
-      bottom: 60px;
+      bottom: 20px;
       font-family: cursive;
       animation: mybutton 3s infinite;
+      display: block;
+      text-align: center;
+      position: fixed;
+      bottom: 45%; 
+      right: 1%;
     }
 
     /*#myBtn{
@@ -473,7 +478,54 @@ cursor: pointer;
       opacity: 1;
     }
 
+    .adImg{
+      display: flex;
+      margin: auto;
+      text-align: center;
+      justify-items: center;
+      height: 100%;
+      width: 40vw;
+    }
+    .adIntro{
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      text-align: center;
+      justify-items: center;
+      font-size: 2em;
+      font-weight: 600;
+      color: #0c63e4;
+      padding: 5%;
+    }
+    #bio{
+      display: flex;
+      align-items: center;
+    }
+
 @media (max-width:426px){
+    .contactButton{
+      display: none;
+    }
+    #sopCVMot{
+      display: flex;
+      margin: auto;
+      justify-items: center;
+    }
+    .studCon{
+      display: flex;
+      flex-direction: column;
+    }
+    .studConBtn{
+      display: flex;
+    }
+    .adIntro{
+      font-size: 0.9em;
+      font-weight: 200;
+    }
+    .row.row-content.cardServStudy{
+      width: 90vw;
+      font-size: x-small;
+    }
   .blogimg{
       height: 49.5%;
       width: 100%;
@@ -539,6 +591,29 @@ cursor: pointer;
 }
 
 @media (min-width:427px) and (max-width:728px){
+  .contactButton{
+    display: none;
+  }
+  #sopCVMot{
+    display: flex;
+    margin: auto;
+    justify-items: center;
+  }
+  .studCon{
+    display: flex;
+    flex-direction: column;
+  }
+  .studConBtn{
+    display: flex;
+  }
+  .adIntro{
+    font-size: 0.9em;
+    font-weight: 200;
+  }
+  .row.row-content.cardServStudy{
+    width: 90vw;
+    font-size: x-small;
+  }
   .blogimg{
       height: 3.5%;
       width: 100%;

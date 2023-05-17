@@ -29,20 +29,22 @@
         </div>
     </nav>
     <div class="container main">
-        <div class="row row-content" id="bio">
-            <div class="col-12 col-sm-7 mr-1">
-                <div class="introword col-6">
-                    Hi, this is
-                    <img src="images/hand.png" class="introimg" alt="hand icon">
-                    SparkKonsult
+        <div class="row row-content" id="webinarAd">
+            <div class="">
+                <div>
+                    <p class="adIntro">To Register for the upcoming International Education Fair, Please tap on the flyer below</p>
+                    <a href="https://forms.gle/iJpJdcwrFjGoG3Xx8"><img src="images/eduWebinar.png" class="adImg" alt="hand icon"></a>
                 </div>
-                <div class="col-12 homeText">
-                    <p>  I am a digital and web creator. I enjoy building websites and bringing dream webpages to life.
-                        I copywrite, build CVs, Motivation letters, Statement of Purpose writer and enjoy proofreading documents efficiently.
-                    </p>
-                </div>    
             </div>
-            <div class="col-12 col-sm-5 ml-1">
+        </div><br><br>
+        <div class="row row-content" id="bio">
+            <div class="col-12 col-sm-5">
+                <div class="introword col-12">
+                    Welcome to
+                    SparkKonsult
+                </div>   
+            </div>
+            <div class="col-12 col-sm-5">
                 <img class="profileImage" src="images/spark.png" alt="profileImage"
                 width="550px" height="300px" >
             </div>
@@ -82,51 +84,54 @@
         <br>
         <div class="row row-content cardServStudy text-center" id="studyConsultation">
             <div class="col-sm-9 ml-1">
-                <div class="d-flex">
+                <div class="d-flex studCon">
+                    <div>
                     <i class="fa fa-diamond me-3"></i>
                     <h6 class="me-2">
                         Study Application Consulting
                     </h6>
+                    </div>
+                    <div class="studConBtn">
                     <!--a href="https://calendly.com/sparkkonsult/1hour_consultation_session"><button class="btn btn-sm me-1 btn-info text-center" type="submit">Book 30Min Session</button></a-->
-                    <a href="https://calendly.com/sparkkonsult/45-minutes-meeting"><button class="btn btn-sm me-1 btn-info text-center" type="submit">Book 45 min Session</button></a>
-                    <a href="https://calendly.com/sparkkonsult/30min"><button class="btn btn-sm btn-info text-center" type="submit">Book 1Hour Session</button></a>
+                    <a href="https://flutterwave.com/pay/45minutessession"><button class="btn btn-sm me-1 btn-info text-center" type="submit">45min Session</button></a>
+                    <a href="https://flutterwave.com/pay/30minutesstudysession"><button class="btn btn-sm btn-info text-center" type="submit">1Hour Session</button></a>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="row row-content cardServStudy text-center" id="createProofEdit">
             <div class="col-sm-9 ml-1">
-                <div class="d-flex">
+                <div class="d-flex studCon">
+                    <div>
                     <i class="fa fa-diamond me-2"></i>
                     <h6 class="me-2">
-                        Proofread and Edit 
-                            CV, 
-                            Statement of Purpose or Motivation letters
+                        Proofread and Edit Documents (CV, SOP, Motivation Letters)
                     </h6>
-                    <div class="dropdown" id="sopCVMot">
-                        <button class="btn btn-info dropbtn" type="button" data-bs-toggle="dropdown" data-bs-target="#webServices" aria-labelledby="webServices" aria-expanded="false">Order</button>
-                        <div class="dropdown-content">
-                                <a  href="https://flutterwave.com/pay/buysinglepagewebsite">Single Webpage</a>
-                        </div>
+                </div>
+                    <div class="studConBtn" id="sopCVMot">
+                        <a  href="https://forms.gle/XCTVYDYHgoUdtTzt6"><button class="btn btn-info" type="button">Order</button></a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row row-content cardServStudy" id="cVServices">
             <div class="col-sm-9 ml-1">
-                <div class="d-flex text-center">
+                <div class="d-flex text-center studCon">
                     <i class="fa fa-diamond me-3"></i>
                     <h6 class="me-2">
                        Order A CV Built for You
                     </h6>
-                    <div class="dropdown me-1">
+                    <div class="studConBtn">
+                    <a class="btn btn-sm btn-info" type="button" href="https://forms.gle/LGRbroBU7RsogmGU7">Provide Details</a><br>
+                    <div class="dropdown me-1" id="orderCV">
                         <a class="btn btn-info" type="button" href="#" >Order CV</a>
                         <div class="dropdown-content me-1">
                                 <a href="https://flutterwave.com/pay/singlepagecv" class="dropdown-item">Basic CV</a>
                                 <a href="https://flutterwave.com/pay/2pagecvtemplate" class="dropdown-item">Standard 2Page CV</a>
                                 <a href="https://flutterwave.com/pay/2pagecvpro" class="dropdown-item">Advanced 2Page CV</a>
                         </div>
-                    </div><br>
-                    <a class="btn btn-info" type="button" href="https://forms.gle/LGRbroBU7RsogmGU7">Fill a Questionaire</a>
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -138,8 +143,7 @@
                        Order A Motivation Letter Built for You
                     </h6>
                     <div class="">
-                        <a class="btn btn-info me-1" type="button" href="https://forms.gle/cjFLzj8Uk7d4ifxFA">Fill a Questionaire</a><br>
-                        <br><button class="btn btn-sm btn-info text-center" type="submit"><a href="#">Book</a></button>
+                        <a class="btn btn-info me-1" type="button" href="https://forms.gle/cjFLzj8Uk7d4ifxFA">Order</a><br>
                     </div>
                 </div>
             </div>
@@ -147,7 +151,7 @@
         <br>
         </div>
         <div class="row" >
-            <a href="contact.html"> <button class="contactButton" style="display: block;text-align: center;position: fixed;bottom: 45%; right: 1%;" type="button">CONTACT ME</button> </a>
+            <a href="contact.html"> <button class="btn-sm contactButton" type="button">CONTACT ME</button> </a>
         </div>
     </div>
         <footer class="footermain">
