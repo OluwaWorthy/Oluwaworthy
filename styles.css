@@ -400,16 +400,22 @@ cursor: pointer;
     }
 
     .row.row-content.cardServ{
-      padding-top: 2.5% ;
-      padding-bottom: 2.5%;
+      padding-top: 2% ;
+      padding-bottom: 2%;
       display: flex;
       align-content: center;
       align-items: center;
+      margin: auto;
+      margin-top: 1.5%;
+      margin-bottom: 1.5%;
+      width: 95%;
+      justify-content: center;
     }
 
-    .row.row-content.cardServStudy{
+    .cardServStudy{
       padding-top: 1.5% ;
       padding-bottom: 1.5%;
+      margin: auto;
       margin-top: 1.5%;
       margin-bottom: 1.5%;
       display: flex;
@@ -421,6 +427,11 @@ cursor: pointer;
       border-left: rgb(239, 221, 221);
       border-style: outset;
       width: 75%;
+      justify-content: center;
+    }
+
+    .d-flex{
+      align-items: center;
       justify-content: center;
     }
 
@@ -517,6 +528,8 @@ cursor: pointer;
     }
     .studConBtn{
       display: flex;
+      margin: auto;
+      justify-items: center;
     }
     .adIntro{
       font-size: 0.9em;
@@ -605,6 +618,8 @@ cursor: pointer;
   }
   .studConBtn{
     display: flex;
+    margin: auto;
+    justify-items: center;
   }
   .adIntro{
     font-size: 0.9em;
