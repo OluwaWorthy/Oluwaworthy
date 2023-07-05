@@ -513,6 +513,11 @@ cursor: pointer;
       align-items: center;
     }
 
+    .container.blogbody strong {
+      display: block;
+      text-align: center;
+    }
+
 @media (max-width:426px){
     .contactButton{
       display: none;
@@ -539,6 +544,7 @@ cursor: pointer;
       width: 90vw;
       font-size: x-small;
     }
+
   .blogimg{
       height: 49.5%;
       width: 100%;
