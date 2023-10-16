@@ -173,7 +173,7 @@ cursor: pointer;
       float: left;
       border-right: solid white;
       text-align: center;
-      width: 15%;
+      width: 20%;
       padding: 0%;
     }
     
@@ -518,6 +518,41 @@ cursor: pointer;
       text-align: center;
     }
 
+    .moving {
+      display: flex;
+      flex-direction: row;
+      padding: 2%;
+      margin: auto;
+      min-height: 75vh;
+      min-width: 85vh;
+      background-color: linear-gradient( to right, #e8068c, #19a048);
+      align-content: center;
+      text-align: center;
+      font-family: Helvetica;
+      font-size: 3.5em;
+      align-items: center;
+    }
+    .movingside{
+      display: flex;
+      flex-direction: column;
+      min-width: 50%;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .movingmain{
+     min-width: 40%;
+    }
+    .movingsidetop{
+    min-height: 45%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    }
+    .movingsidebottom{
+    min-height: 45%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    }
+
 @media (max-width:426px){
     .contactButton{
       display: none;
@@ -574,6 +609,13 @@ cursor: pointer;
       align-items: center;
       margin: auto;
     }
+    .moving{
+      display: flex;
+      flex-direction: column;
+    }
+    .movingside{
+      flex-direction: column;
+    }
 }
 
 @media (min-width:768px) and (max-width:996px){
@@ -606,6 +648,13 @@ cursor: pointer;
       align-content: center;
       align-items: center;
       margin: auto;
+    }
+    .moving{
+      display: flex;
+      flex-direction: column;
+    }
+    .movingside{
+      flex-direction: column;
     }
 }
 
@@ -664,5 +713,12 @@ cursor: pointer;
       align-content: center;
       align-items: center;
       margin: auto;
+    }
+    .moving{
+      display: flex;
+      flex-direction: column;
+    }
+    .movingside{
+      flex-direction: column;
     }
 }
